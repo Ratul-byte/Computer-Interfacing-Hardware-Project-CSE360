@@ -2,7 +2,7 @@
 
 ## Overview
 
-Hello everyone! 👋 This is a small project developed during our university's **Computer Interfacing** course. Here we designed an **intelligent safety helmet** which enhances rider protection using modern sensors and communication technologies. It detects accidents, alcohol consumption, theft, and obstacles, and can send emergency alerts using Bluetooth communication. The helmet incorporates a combination of sensors, buzzers, LEDs, and buttons to provide real-time safety feedback. Arduino 2.3.6 was used to upload and compile the code for the Arduino Uno to run the project.
+Hello everyone! 👋 This is a small project developed during our university's **Computer Interfacing** course. Here we designed an **intelligent safety helmet** which enhances rider protection using modern sensors and communication technologies. It detects accidents, alcohol consumption, theft, and obstacles, and can send emergency alerts using Bluetooth communication. The helmet incorporates a combination of sensors, buzzers, LEDs, and buttons to provide real-time safety feedback. **Arduino IDE 2.3.6** was used to upload and compile the code for the Arduino Uno to run the project.
 
 ## Team Information
 
@@ -12,20 +12,22 @@ Hello everyone! 👋 This is a small project developed during our university's *
 - [Nowshin Sumaiya](https://www.facebook.com/nowshin.sumaiya.yen)
 - [Most. Sumaiya Haque Subha](https://www.facebook.com/sumaiya.haque.subah)
 
-## Hardware Components
+## Hardware Components Used
 
-| Component           | Type                      | Purpose                               |
-|---------------------|---------------------------|----------------------------------------|
-| Arduino Uno         | Microcontroller           | Core controller for all components     |
-| MPU6050             | Gyroscope & Accelerometer | Crash and tilt detection               |
-| MQ3 Sensor          | Alcohol Sensor            | Alcohol detection via breath           |
-| IR Sensor           | Infrared Sensor           | Theft/unwanted access detection        |
-| Ultrasonic Sensor   | HC-SR04                   | Obstacle detection                     |
-| Touch Sensor        | Capacitive Sensor         | Helmet wear detection                  |
-| LEDs                | Actuator                  | Visual alerts                          |
-| Buzzer              | Actuator                  | Audio alerts                           |
-| SOS Button          | Push Button               | Emergency alert trigger                |
-| Kill Switch         | Toggle Switch             | Enable/disable crash detection system  |
+| Component           | Type                      | Purpose                                               |
+|---------------------|---------------------------|--------------------------------------------------------|
+| Arduino Uno         | Microcontroller           | Core controller for all components                     |
+| MPU6050             | Gyroscope & Accelerometer | Crash and tilt detection                               |
+| MQ3 Sensor          | Alcohol Sensor            | Alcohol detection via breath                           |
+| IR Sensor           | Infrared Sensor           | Theft/unwanted access detection                        |
+| Ultrasonic Sensor   | HC-SR04                   | Obstacle detection                                     |
+| Touch Sensor        | Capacitive Sensor         | Helmet wear detection                                  |
+| HC-06 Module        | Bluetooth Module          | Wireless transmission of alerts to a mobile device     |
+| LEDs                | Actuator                  | Visual alerts                                          |
+| Buzzer              | Actuator                  | Audio alerts                                           |
+| SOS Button          | Push Button               | Emergency alert trigger                                |
+| Kill Switch         | Toggle Switch             | Enable/disable crash detection system                  |
+
 
 ## Software Requirements
 
