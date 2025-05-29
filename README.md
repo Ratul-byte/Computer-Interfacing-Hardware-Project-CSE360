@@ -2,7 +2,7 @@
 
 ## Overview
 
-Hello everyone! 👋 This is a small project developed during our university's Computer Interfacing course. Here we designed **intelligent safety helmet** to enhance rider protection using modern sensors and communication technologies. It detects accidents, alcohol consumption, theft, and obstacles, and can send emergency alerts using Bluetooth communication. The helmet incorporates a combination of sensors, buzzers, LEDs, and buttons to provide real-time safety feedback. Arduino 2.3.6 was used to upload and compile the code for the Arduino Uno to run the project.
+Hello everyone! 👋 This is a small project developed during our university's **Computer Interfacing** course. Here we designed an **intelligent safety helmet** which enhances rider protection using modern sensors and communication technologies. It detects accidents, alcohol consumption, theft, and obstacles, and can send emergency alerts using Bluetooth communication. The helmet incorporates a combination of sensors, buzzers, LEDs, and buttons to provide real-time safety feedback. Arduino 2.3.6 was used to upload and compile the code for the Arduino Uno to run the project.
 
 ## Team Information
 
