@@ -12,7 +12,7 @@ Hello everyone! 👋 This is a small project developed during our university's *
 - [Nowshin Sumaiya](https://www.facebook.com/nowshin.sumaiya.yen)
 - [Most. Sumaiya Haque Subha](https://www.facebook.com/sumaiya.haque.subah)
 
-## Components Used
+## Hardware Components
 
 | Component           | Type                      | Purpose                               |
 |---------------------|---------------------------|----------------------------------------|
@@ -27,11 +27,30 @@ Hello everyone! 👋 This is a small project developed during our university's *
 | SOS Button          | Push Button               | Emergency alert trigger                |
 | Kill Switch         | Toggle Switch             | Enable/disable crash detection system  |
 
+## Software Requirements
+
+- **Arduino IDE**: For programming and uploading code to the Arduino Uno.
+### Libraries:
+- **Wire.h** (for I2C communication with MPU6050)
+- **SoftwareSerial.h** (for Bluetooth communication with HC-06)
+
 ## Communication Protocols
 
 - **I2C**: For MPU6050 sensor (SDA/SCL)
 - **UART**: For Bluetooth communication (TX/RX)
 - **Digital/Analog I/O**: For other sensors, buzzers, and LEDs
+
+## Setup Instructions
+
+- Connect the MPU6050 to the Arduino Uno via I2C (SDA to A4, SCL to A5).
+- Connect the MQ3 sensor to analog pin A0.
+- Connect the IR sensor to digital pin 2.
+- Connect the touch sensor to digital pin 6.
+- Connect the ultrasonic sensor (HC-SR04) with Trig to pin 11 and Echo to pin 12.
+- Connect LEDs to pins 7, 8, and 10.
+- Connect buzzers to pins 9 and 13.
+- Connect the SOS button to pin 4 and the kill switch to pin 5.
+- Connect the HC-06 Bluetooth module to TX and RX pins for serial communication.
 
 ## Features
 
@@ -48,14 +67,6 @@ Hello everyone! 👋 This is a small project developed during our university's *
 - **False Crash Detection**: Limited to >45° tilt to reduce false alerts
 - **Sensor Inconsistencies**: Delays and flags used to debounce inputs
 - **Power Consumption**: Buzzer/LEDs turned on only when needed
-
-## Future Enhancements
-
-- Add **GPS module** for live tracking
-- Add **SIM800L** for SMS-based emergency alerts (without Bluetooth)
-- Include **camera module** for evidence collection
-- Connect **alcohol sensor to ignition** to prevent drunk driving
-- Potential use for delivery riders, law enforcement, and transport services
 
 ## Expected Outcomes
 
