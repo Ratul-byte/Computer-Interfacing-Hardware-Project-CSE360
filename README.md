@@ -12,6 +12,10 @@ Hello everyone! 👋 This is a small project developed during our university's *
 - [Nowshin Sumaiya](https://www.facebook.com/nowshin.sumaiya.yen)
 - [Most. Sumaiya Haque Subha](https://www.facebook.com/sumaiya.haque.subah)
 
+### Special Thanks
+
+[Arnob Shoeb](https://www.facebook.com/share/1XMxrLB6HS/)
+
 ## Hardware Components Used
 
 | Component           | Type                      | Purpose                                               |
